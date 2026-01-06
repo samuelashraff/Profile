@@ -23,9 +23,10 @@ export default function Experience() {
         "Served as the main technical contact for several customer projects in a high-ownership role, \
         delivering several end-to-end features and ensuring prompt resolution of reported issues.",
         "Completed master’s thesis in collaboration with the company, \
-        researching state-of-the-art Automatic Speech Recognition (ASR) technologies and their practical applications.",
+        researching state-of-the-art Automatic Speech Recognition (ASR)\
+        technologies and their practical applications using OpenAI’s Whisper, Assembly AI, and Vosk, as well as AWS.",
         "Performed customer data migration from external systems.",
-        "Spearheaded development of automated testing using Robot Framework and JUnit.",
+        "Spearheaded development of automated testing using Robot Framework and JUnit resulting in reduced manual testing.",
       ]
     },
     {
