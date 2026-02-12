@@ -9,6 +9,7 @@ body {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 2rem;
   padding: 32px 16px;
   background: #fff;
   border-radius: 12px;
@@ -165,5 +166,50 @@ body {
     max-width: 100%;
     padding: 16px 4px;
     border-radius: 0;
+  }
+}
+
+/* Certificates cards */
+.certificates-section {
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 18px;
+}
+.certificates-section h3 {
+  margin: 0;
+  text-align: left;
+}
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+  margin-top: 12px;
+}
+.cert-card {
+  background: #f3f5f7;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 88px;
+}
+.cert-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111;
+}
+.cert-date {
+  margin: 6px 0 0;
+  color: #666;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 700px) {
+  .certificates-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -131,6 +131,31 @@
 
 /* Resume Download Link Styles */
 
+/* Resume Download Link Styles */
+
+.navbar-link-resume {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff !important;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.navbar-link-resume::after {
+  display: none;
+}
+
+.navbar-link-resume:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.navbar-link-resume.active {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  color: #fff;
+}
+
 .resume-download {
   background: #1a237e;
   color: #fff;

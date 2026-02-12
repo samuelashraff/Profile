@@ -18,10 +18,11 @@ export default function Experience() {
       dates: "Sep 2021 – Apr 2025",
       content: [
         "Progressed from a part-time trainee role to full-time full-stack developer, \
-        delivering full-stack features with Java (Spring), React, and Jenkins CI/CD pipelines \
-        in an Agile and Test-Driven Development Environment.",
+        delivering full-stack features with Java v.11+ (Spring), React, \
+        and Jenkins CI/CD pipelines in an Agile and Test-Driven Development Environment, \
+        supporting systems with hundreds of thousands of data entities.",
         "Served as the main technical contact for several customer projects in a high-ownership role, \
-        delivering several end-to-end features and ensuring prompt resolution of reported issues.",
+        delivering several end-to-end features and ensuring operational stability on production systems.",
         "Completed master’s thesis in collaboration with the company, \
         researching state-of-the-art Automatic Speech Recognition (ASR)\
         technologies and their practical applications using OpenAI’s Whisper, Assembly AI, and Vosk, as well as AWS.",

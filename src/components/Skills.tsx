@@ -3,6 +3,9 @@ import "../styles/base.css";
 export default function Skills() {
   const skills = [
     "Java",
+    "Spring Framework",
+    "Spring Boot",
+    "Spring Data JPA",
     "React.js",
     "JavaScript",
     "TypeScript",
@@ -24,6 +27,7 @@ export default function Skills() {
     "Linux",
     "Agile Methodologies",
     "SPARQL",
+    "Kafka"
   ];
   return (
     <section className="skills-section">

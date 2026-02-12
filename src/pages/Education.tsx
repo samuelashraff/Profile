@@ -19,6 +19,7 @@ export default function Education() {
         "Specialized in Web Technologies, Applications, and Science.",
         "Master's Thesis: Centered around Automatic Speech Recognition (ASR) technologies.\
          Performed ASR model fine-tuning and creation.",
+         "Completed several full-stack, project-oriented courses featuring FastAPI, Koa, Express, SQLite, Firebase, and MongoDB."
       ],
     },
     {

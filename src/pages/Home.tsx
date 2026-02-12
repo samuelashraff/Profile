@@ -4,6 +4,7 @@ import photo from "../assets/CV_Photo_2.png";
 import Skills from "../components/Skills";
 import About from "../components/About";
 import Links from "../components/Links";
+import Certifications from "../components/Certifications";
 
 export default function Home() {
   const [visible, setVisible] = useState(false);
@@ -25,6 +26,9 @@ export default function Home() {
         <div className="skills-layout stagger stagger-late">
             <Skills />
         </div>
+        <section className="certificates-section stagger stagger-late">
+            <Certifications/>
+        </section>
         <div className="stagger stagger-last">
           <Links />
         </div>

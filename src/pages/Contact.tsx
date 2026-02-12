@@ -7,7 +7,10 @@ export default function Contact() {
     <div className="main-container stagger centered">
       <h1>Contact Me</h1>
       <p className="contact-intro">
-        If you found my profile interesting, don't hesitate to reach out! I'm always open to discussing new opportunities, collaborations, 
+        If you found my profile interesting, don't hesitate to reach out!
+      </p>
+      <p className="contact-intro">
+        I'm always open to discussing new opportunities, collaborations, 
         or just connecting with like-minded professionals.
       </p>
       <p className="contact-intro">

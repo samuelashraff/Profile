@@ -10,20 +10,19 @@ export default function About() {
             </p>
 
             <p>
-                I hold a Master of Technology in Computer Science from Aalto University, 
-                where I specialized in Web Technologies, Applications, and Science. 
+                I hold a Master of Technology in Web Technologies, Applications, and Science from Aalto University, <b>Finland’s 
+                No.1 institution overall and in the fields of Technology and Engineering</b>. 
                 My Master's Thesis centered on Automatic Speech Recognition (ASR) technologies, 
                 explored state-of-the-art ASR advancements and practical applications through ASR model fine-tuning and creation. 
             </p>
 
             <p>
-                At my most recent role at Profium, I started off in a trainee role developing automated testing features using Robot Framework. 
-                I then moved onto a full-stack developer role in an Agile and TDD environment, 
-                using React.js, Java (Spring & Spring Boot), Jenkins CI/CD pipelines, 
-                and GitHub based workflows to deliver integrated end-to-end features. 
-                There I served as the primary technical point of contact for several customer projects in a high-ownership role, 
-                responding to production incidents and developing end-to-end features from architecture to deployment, 
-                while also gaining experience refactoring and debugging complex legacy codebases.
+                At Profium, I progressed from developing automated testing solutions using
+                Robot Framework into a full-stack developer role within a Java and React-based SaaS platform.
+                I owned the delivery of end-to-end production features, worked across CI/CD pipelines,
+                responded to production incidents, and served as the primary technical point of contact for several customer projects.
+                This experience strengthened both my engineering discipline and ownership mindset,
+                while also exposing me to complex legacy system refactoring and production-level debugging.
             </p>
 
             <p>

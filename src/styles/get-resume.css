@@ -1,0 +1,142 @@
+.get-resume-container {
+  max-width: 1000px;
+  margin: 48px auto 0 auto;
+  padding: 0 16px;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.resume-header h1 {
+  font-size: 2.2rem;
+  color: #2d3748;
+  margin-bottom: 12px;
+}
+
+.resume-header p {
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+.resume-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.resume-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.preview-container {
+  background: #f7fafc;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 400px;
+  border-bottom: 1px solid #e2e8f0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.preview-container:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  background-color: #edf2f7;
+}
+
+.preview-container canvas {
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-content h2 {
+  font-size: 1.5rem;
+  color: #2d3748;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: #4a5568;
+  margin: 0;
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+.download-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.download-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.download-btn:active {
+  transform: scale(0.98);
+}
+
+/* Loading state */
+.preview-container p {
+  color: #718096;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .resume-cards {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .resume-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .preview-container {
+    min-height: 350px;
+  }
+}
+
+/* Handle PDF rendering errors */
+.react-pdf__Document {
+  display: flex;
+  justify-content: center;
+}
+
+.react-pdf__Page {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

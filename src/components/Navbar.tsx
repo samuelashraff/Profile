@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "../styles/base.css";
-import resumePdf from "../assets/CV_Samuel_Ashraff.pdf";
 
 function NavConnector() {
   return (
@@ -41,13 +40,9 @@ export default function Navbar() {
           Contact
         </NavLink>
         <NavConnector />
-        <a
-          href={resumePdf}
-          download="SamuelAshraff_Resume.pdf"
-          className="navbar-link resume-download"
-        >
-          Download Resume
-        </a>
+        <NavLink to="/resume" className="navbar-link navbar-link-resume">
+          Get Resume
+        </NavLink>
       </nav>
     </header>
   );
